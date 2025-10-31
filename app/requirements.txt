@@ -1,0 +1,24 @@
+# --- Core framework ---
+fastapi
+uvicorn[standard]
+
+# --- Database ---
+sqlalchemy
+aiomysql
+asyncmy
+alembic
+
+# --- Authentication & Security ---
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+python-multipart
+
+# --- Data validation ---
+pydantic
+pydantic-settings
+# --- WebSockets ---
+websockets
+
+# --- Utilities ---
+python-dotenv
