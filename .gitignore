@@ -1,0 +1,45 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# --- Entornos virtuales ---
+env/
+venv/
+.venv/
+ENV/
+backend_restaurant/env/
+frontend_restaurant/env/
+
+# --- IDE/Editor ---
+.vscode/
+.idea/
+*.iml
+
+# --- Sistema Operativo ---
+.DS_Store
+Thumbs.db
+
+# --- Variables de entorno / secretos ---
+*.env
+backend_restaurant/app/.env
+frontend_restaurant/.env
+
+# --- Logs ---
+*.log
+logs/
+nohup.out
+
+# --- Tests / Coverage ---
+.coverage
+htmlcov/
+pytest_cache/
+
+# --- Docker / Misc ---
+*.pid
+*.swp
